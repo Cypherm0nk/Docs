@@ -10,7 +10,7 @@ To receive an asset, an address must be created:
 | :---        |    :----:   |  ---: |
 | Label  | Optional        | "<YOUR_LABEL>"|
 | Address type  | Optional       | legacy", "p2sh-segwit", and "bech32"     |
-| | |
+
 
 To verify transaction related information sent to your address, use the following RPC's:
 ```
@@ -61,7 +61,8 @@ conf_target  | Optional (numeric, default=wallet_default)       | target tx conf
 | "estimate_mode"  | Optional (string, default=UNSET)       | "UNSET",  "ECONOMICAL", or "CONSERVATIVE" fee estimation     |
 | "assetlabel"  | Required (string)      | The asset label or hex to be sent     |
 | ignoreblindfail | Optional ((boolean, default=true)       | Return a transaction even when a blinding attempt fails due to number of blinded inputs/outputs     |
-| | |
+
+
 Edample transaction:
 ```
 sendtoaddress <addressS> 0.00000003 "" "" false true 1 UNSET <assetid>
@@ -93,7 +94,8 @@ conf_target  | Optional (numeric, default=wallet_default)       | target tx conf
 | "estimate_mode"  | Optional (string, default=UNSET)       | "UNSET",  "ECONOMICAL", or "CONSERVATIVE" fee estimation     |
 | output_assets  | Required (json object)      | "address": "str",     (string, required) A key-value pair where the key is the address used and the value is an asset label or hex asset ID     |
 | ignoreblindfail | Optional ((boolean, default=true)       | Return a transaction even when a blinding attempt fails due to number of blinded inputs/outputs     |
-| | |
+
+
 Edample transactions:
 
 1. Send two amounts to two different addresses:

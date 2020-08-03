@@ -28,7 +28,7 @@ During an asset's lifecycle, decreasing and increasing is possible using `destro
 
 We highly recommend always using eight decimal places when issuing an asset.
 
-#### Liquid RPC cheatsheet
+#### RPC cheatsheet
 ```
 elements-cli help
 elements-cli issueasset <asset amount> <reissuance token amount> #OPTIONAL unblinded:false
@@ -69,8 +69,6 @@ The contract hash represents the information attributes that are committed to ab
 | Asset Amount  | Optional        | value of 21 will create an amount Blockstream Explorer will show as 21,000,000 |
 | Reissuance Token Amount  | Optional        | value of 0.00000001 will create an amount Blockstream Explorer will show as 1|
 | Precision  | Optional       | number of digits after the decimal point, i.e. 0 for non-divisible assets or 8 for BTC-like. defaults to 0.     |
-| | |
-
 
 
 

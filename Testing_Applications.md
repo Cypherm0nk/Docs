@@ -5,7 +5,7 @@ Testing your applications with testnet and regtest can be useful. Your `bitcoin.
 ## **Testnet**
 #### Bitcoin Core
 ```
-chain=test
+testnet=1
 daemon=1
 txindex=1
 regtest.rpcport=18888
@@ -15,7 +15,7 @@ rpcpassword=password3
 ```
 #### Elements
 ```
-chain=test
+chain=testnet
 mainchainrpcport=18888
 mainchainrpcuser=user3
 mainchainrpcpassword=password3
